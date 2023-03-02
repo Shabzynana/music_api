@@ -21,7 +21,7 @@ app.config['SECRET_KEY'] = 'mysegcret'
 
 ##########################################
 app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {"pool_pre_ping": True}
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://shabzy:4ugAtmMIpXIcTl7tFjmWjaPiFOIVtEbH@dpg-cfujslha6gdrs8jjq1ug-a.oregon-postgres.render.com/music_id63"
+app.config['SQLALCHEMY_DATABASE_URI'] = "3"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
