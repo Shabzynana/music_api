@@ -29,7 +29,11 @@ def register():
     print(new_user)
     result = user_schema.dump(new_user)
     return jsonify({
+<<<<<<< HEAD
         'msg': "User Created",
+=======
+        'message': "User Created",
+>>>>>>> 130004dd3f3e34f5f6f082a687ed094886d8905b
         'user': result }), 201
 
 @users.route("/api/logout", methods=['POST'])
