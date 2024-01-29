@@ -1,6 +1,6 @@
 from flask import url_for,flash,redirect,request,Blueprint,jsonify
 from flask_login import login_user, current_user, logout_user, login_required
-from music_app import db, app, bcrypt
+from music_app import db, bcrypt
 from music_app.models import User
 from music_app.users.serializers import user_schema, users_schema
 from music_app.users.token import get_token, verify_token
